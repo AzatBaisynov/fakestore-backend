@@ -4,7 +4,7 @@ import authRouter from "./router/authRouter.js"
 import cors from 'cors'
 import productRouter from "./router/productRouter.js";
 
-const PORT = 5000
+const PORT = 8080
 
 const app = express()
 app.use(express.json())
